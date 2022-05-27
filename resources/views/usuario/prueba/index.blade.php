@@ -46,7 +46,7 @@
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-arrow-right"></i>
                                             </span>
-                                            <span class="text">Editar</span>
+                                            <span class="text">Editando</span>
                                         </a>
 
                                         <form action="{{route('usuario.prueba.delete',$prueba->id)}}" method="POST">
@@ -58,7 +58,7 @@
                                                 <span class="text">Eliminar</span>
                                             </button>
                                         </form>
-                                       
+
                                     </td>
                                 </tr>
                             @endforeach
